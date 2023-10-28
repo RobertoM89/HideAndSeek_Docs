@@ -52,6 +52,8 @@ Click on the new shelf button to run **Hide and Seek**.
 
 The first time you add a picker icon to the active shelf or whenever you create a new shelf through the *Create Shelf* button, these four icons will appear on the shelf.
 
+##### Hide and Seek button
+
 <div class="row">
   <div class="column">
     <img src="https://robertom89.github.io/HideAndSeek_Docs/images/HideAndSeek_icon.png" alt="Icon" width="15%"/>
@@ -60,6 +62,8 @@ The first time you add a picker icon to the active shelf or whenever you create 
 
 Click on this icon to run **Hide and Seek** tool.
 
+##### Refresh Shelf button
+
 <div class="row">
   <div class="column">
     <img src="https://robertom89.github.io/HideAndSeek_Docs/images/refresh_shelf_126.png" alt="Icon" width="15%"/>
@@ -67,6 +71,8 @@ Click on this icon to run **Hide and Seek** tool.
 </div>
 
 Click on this icon whenever you start a new session of Maya. This is needed to reload all the hotkeys of the picker icons.
+
+##### Left Right button
 
 <div class="row">
   <div class="column" >
@@ -89,7 +95,7 @@ Clicking on any of the two will toggle the selection mode and the icon.
 
 Even if the picker buttons can be added to any shelf, it is adviced to create a specific shelf for your character's picker. Click on *Create Shelf* to create a new shelf. Optionally, enter a name for the new shelf.
 
-The new shelf will be created and populated with the *Hide and Seek* button, the *Refresh Shelf* button and the *Left Right* button (see below).
+The new shelf will be created and populated with the *Hide and Seek* button, the *Refresh Shelf* button and the *Left Right* button (see [here](https://robertom89.github.io/HideAndSeek_Docs/#tool-icons)).
 
 ### Add Shelf Separator
 
@@ -101,7 +107,10 @@ If too many icons are on the shelf, some of them will be hidden. Click on *Two R
 
 ### Select Mode: Picker / Visibility Toggler
 
-**Hide and Seek** tool can work in two modes. If *Picker* mode is selected, the icons added to the shelf will work as selection buttons, if *Visibility Toggler* mode is selected, the icons added to the shelf will toggle the visibility of the meshes/faces associated to the button.
+**Hide and Seek** tool can work in two modes.
+
+- **Picker**  mode:  the icons added to the shelf will work as selection buttons;
+- **Visibility Toggler** mode: the icons added to the shelf will toggle the visibility of the meshes/faces associated to the button.
 
 ### Select All Controls
 
@@ -155,6 +164,7 @@ If the button was created in Picker Mode, use:
 - **Ctrl** + **LMB/RMB/MMB**: to remove from selection
 - **Shift** + **Alt** + **LMB/RMB/MMB**: combination of the above
 - **Ctrl** + **Alt** + **LMB/RMB/MMB**: combination of the above
+- Double **LMB**: to delete the shelf button
 
 ### Optional Label for Shelf Button
 
@@ -163,7 +173,6 @@ Enter here a label for the shelf button before clicking on the icon buttons when
 ### Add Background Color
 
 Select an optional background color for the shelf button. Tick the checkbox before clicking on the icon buttons when creating the shelf button.
-
 
 <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;   width: 50px;   height: 50px;   position: fixed;   bottom: 20px;   right: 30px;   z-index: 99;   font-size: 18px;   display: inline-flex;   flex-direction: column;   justify-content: center;   align-items: center;   border: none;   outline: none;   background-color: #2D7180;   color: white;   cursor: pointer;   padding: 15px;   border-radius: 100%;">Top </button>
 
