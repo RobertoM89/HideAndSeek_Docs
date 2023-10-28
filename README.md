@@ -48,8 +48,8 @@ Click on the new shelf button to run **Hide and Seek**.
 
 <div class="row">
   <div class="column">
-    <img src="https://robertom89.github.io/BigRig/images/leg_rig_02.jpg" alt="Legs" width="80%"/>
-    <figcaption>Fig.1 - Leg joints</figcaption>
+    <img src="https://robertom89.github.io/HideAndSeek_Docs/images/HideAndSeek_icon.png" alt="Icon" width="10%"/>
+    <figcaption>Fig.1 - Icon</figcaption>
   </div>
 </div>
 
