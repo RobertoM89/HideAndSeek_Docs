@@ -17,7 +17,9 @@ Give a look at the video or read the guide below if you want to see its function
 ---
 
 - [Download and Install](https://robertom89.github.io/HideAndSeek_Docs/#download-and-install)
-- [Create a New Shelf](https://robertom89.github.io/HideAndSeek_Docs/#create-a-new-shelf)
+- [Quick Guide](https://robertom89.github.io/HideAndSeek_Docs/#quick-guide)
+- [Tool Icons](https://robertom89.github.io/HideAndSeek_Docs/#tool-icons)
+- [Command List](https://robertom89.github.io/HideAndSeek_Docs/#command-list)
 
 ## Download and Install
 
@@ -43,6 +45,8 @@ Click on the new shelf button to run **Hide and Seek**.
 ---
 
 ## Quick Guide
+
+---
 
 ## Tool Icons
 
@@ -77,6 +81,7 @@ If the second of these two icons is visible (the other one will be hidden), "lef
 
 Clicking on any of the two will toggle the selection mode and the icon.
 
+---
 
 ## Command List
 
@@ -159,7 +164,8 @@ Enter here a label for the shelf button before clicking on the icon buttons when
 
 Select an optional background color for the shelf button. Tick the checkbox before clicking on the icon buttons when creating the shelf button.
 
-`<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;   width: 50px;   height: 50px;   position: fixed;   bottom: 20px;   right: 30px;   z-index: 99;   font-size: 18px;   display: inline-flex;   flex-direction: column;   justify-content: center;   align-items: center;   border: none;   outline: none;   background-color: #2D7180;   color: white;   cursor: pointer;   padding: 15px;   border-radius: 100%;">`Top `</button>`
+
+<button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;   width: 50px;   height: 50px;   position: fixed;   bottom: 20px;   right: 30px;   z-index: 99;   font-size: 18px;   display: inline-flex;   flex-direction: column;   justify-content: center;   align-items: center;   border: none;   outline: none;   background-color: #2D7180;   color: white;   cursor: pointer;   padding: 15px;   border-radius: 100%;">Top </button>
 
 <script>
 //Get the button
