@@ -46,12 +46,37 @@ Click on the new shelf button to run **Hide and Seek**.
 
 ## Tool Icons
 
+The first time you add a picker icon to the active shelf or whenever you create a new shelf through the *Create Shelf* button, these four icons will appear on the shelf.
+
 <div class="row">
   <div class="column">
-    <img src="https://robertom89.github.io/HideAndSeek_Docs/images/HideAndSeek_icon.png" alt="Icon" width="10%"/>
-    <figcaption>Fig.1 - Icon</figcaption>
+    <img src="https://robertom89.github.io/HideAndSeek_Docs/images/HideAndSeek_icon.png" alt="Icon" width="15%"/>
   </div>
 </div>
+
+Click on this icon to run **Hide and Seek** tool.
+
+<div class="row">
+  <div class="column">
+    <img src="https://robertom89.github.io/HideAndSeek_Docs/images/refresh_shelf_126.png" alt="Icon" width="15%"/>
+  </div>
+</div>
+
+Click on this icon whenever you start a new session of Maya. This is needed to reload all the hotkeys of the picker icons.
+
+<div class="row">
+  <div class="column" >
+    <img src="https://robertom89.github.io/HideAndSeek_Docs/images/has_sel_screen.png" alt="Icon" width="15%"/>
+    <img src="https://robertom89.github.io/HideAndSeek_Docs/images/has_sel_char.png" alt="Icon" width="15%"/>
+  </div>
+</div>
+
+If the first of these two icons is visible (the other one will be hidden), "left selection" and "right selection" will consider the left and right sides of the *screen*.
+
+If the second of these two icons is visible (the other one will be hidden), "left selection" and "right selection" will consider the left and right side of the *character*.
+
+Clicking on any of the two will toggle the selection mode and the icon.
+
 
 ## Command List
 
