@@ -46,6 +46,33 @@ Click on the new shelf button to run **Shelf Picker**.
 
 ## Quick Guide
 
+Start by creating a new shelf for your picker by clicking on *Create Shelf.*
+Select a control on your rig and look for the side tag in its name.
+Then, type the left and right tag in the corresponding fields in the UI.
+Choose the icon set and click on the icon that best matches your selection.
+A new picker-icon will appear on the shelf.
+You can customize any new icon with an optional label or a background color through the corresponding buttons at the bottom of the UI.
+If you prefer, you can take a screenshot rather than use one of the icons.
+Tick *ScreenCap*, center your subject in the persp camera and click on the camera button.
+Tick *ShowNurbs* if you want to keep the visibility of the controls in the screenshot.
+
+Now, left-click the picker icon on the shelf to select the left control of your character.
+Right-click it to select the right one.
+If you'd rather think in terms of screen left and screen right, click on the Left-Right icon (see [here](https://robertom89.github.io/ShelfPicker_Docs/#tool-icons)) to toggle side mode.
+Hold Shift while clicking the picker icon to add the control to the current selection.
+Hold Control to remove it.
+
+If more rigs share the same naming convention, you can use the same picker button for all of them.
+Just select first a random control of the rig you want to work with.
+Alternatively, create a Preselection Button for the rig. Center your subject in the persp camera and click on *Add Preselection Button*.
+
+If you want to select all the controls of your rig, select three random controls and run *Select All Controls*.
+
+You can also use the tool to toggle visibility of objects of faces in the scene.
+Switch to *Visibility Toggler* mode, make a selection and click any icon button to add a visibility toggler button to the shelf.
+
+Remember to run *Refresh Shelf* button (see [here](https://robertom89.github.io/ShelfPicker_Docs/#tool-icons)) at every new session of Maya to rebuild the hotkeys for the shelf-picker.
+
 ---
 
 ## Tool Icons
