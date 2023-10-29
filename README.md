@@ -1,5 +1,5 @@
-Hide and Seek - A Maya tool for animators
-=========================================
+Shelf Picker - A Maya tool for animators
+========================================
 
 ---
 
@@ -8,7 +8,7 @@ Hide and Seek - A Maya tool for animators
 
 **Tested on Maya: 2023**
 
-**Hide and Seek** is a Maya tool for 3D animators developed by *[Roberto Menicatti](https://linktr.ee/robertomenicatti)*, which allows you to easily build a shelf-based picker for any rig you want.
+**Shelf Picker** is a Maya tool for 3D animators developed by *[Roberto Menicatti](https://linktr.ee/robertomenicatti)*, which allows you to easily build a shelf-based picker for any rig you want.
 
 Give a look at the video or read the guide below if you want to see its functionalities.
 
@@ -16,14 +16,14 @@ Give a look at the video or read the guide below if you want to see its function
 
 ---
 
-- [Download and Install](https://robertom89.github.io/HideAndSeek_Docs/#download-and-install)
-- [Quick Guide](https://robertom89.github.io/HideAndSeek_Docs/#quick-guide)
-- [Tool Icons](https://robertom89.github.io/HideAndSeek_Docs/#tool-icons)
-- [Command List](https://robertom89.github.io/HideAndSeek_Docs/#command-list)
+- [Download and Install](https://robertom89.github.io/ShelfPicker_Docs/#download-and-install)
+- [Quick Guide](https://robertom89.github.io/ShelfPicker_Docs/#quick-guide)
+- [Tool Icons](https://robertom89.github.io/ShelfPicker_Docs/#tool-icons)
+- [Command List](https://robertom89.github.io/ShelfPicker_Docs/#command-list)
 
 ## Download and Install
 
-After downloading the zipped folder, uncompress it and move *HideAndSeek* folder (the one without the Version number in the name), to Maya scripts folder.
+After downloading the zipped folder, uncompress it and move *ShelfPicker* folder (the one without the Version number in the name), to Maya scripts folder.
 
 You can find Maya scripts folder here:
 
@@ -40,7 +40,7 @@ You can find Maya scripts folder here:
 ```
 
 With Maya open, simply drag the file **Installer.py** onto the viewport to add the tool to the current shelf.
-Click on the new shelf button to run **Hide and Seek**.
+Click on the new shelf button to run **Shelf Picker**.
 
 ---
 
@@ -52,21 +52,21 @@ Click on the new shelf button to run **Hide and Seek**.
 
 The first time you add a picker icon to the active shelf or whenever you create a new shelf through the *Create Shelf* button, these four icons will appear on the shelf.
 
-##### Hide and Seek button
+##### Shelf Picker button
 
 <div class="row">
   <div class="column">
-    <img src="https://robertom89.github.io/HideAndSeek_Docs/images/HideAndSeek_icon.png" alt="Icon" width="15%"/>
+    <img src="https://robertom89.github.io/ShelfPicker_Docs/images/ShelfPicker_icon.png" alt="Icon" width="15%"/>
   </div>
 </div>
 
-Click on this icon to run **Hide and Seek** tool.
+Click on this icon to run **Shelf Picker** tool.
 
 ##### Refresh Shelf button
 
 <div class="row">
   <div class="column">
-    <img src="https://robertom89.github.io/HideAndSeek_Docs/images/refresh_shelf_126.png" alt="Icon" width="15%"/>
+    <img src="https://robertom89.github.io/ShelfPicker_Docs/images/refresh_shelf_126.png" alt="Icon" width="15%"/>
   </div>
 </div>
 
@@ -76,8 +76,8 @@ Click on this icon whenever you start a new session of Maya. This is needed to r
 
 <div class="row">
   <div class="column" >
-    <img src="https://robertom89.github.io/HideAndSeek_Docs/images/has_sel_screen.png" alt="Icon" width="15%"/>
-    <img src="https://robertom89.github.io/HideAndSeek_Docs/images/has_sel_char.png" alt="Icon" width="15%"/>
+    <img src="https://robertom89.github.io/ShelfPicker_Docs/images/sel_screen.png" alt="Icon" width="15%"/>
+    <img src="https://robertom89.github.io/ShelfPicker_Docs/images/sel_char.png" alt="Icon" width="15%"/>
   </div>
 </div>
 
@@ -95,7 +95,7 @@ Clicking on any of the two will toggle the selection mode and the icon.
 
 Even if the picker buttons can be added to any shelf, it is adviced to create a specific shelf for your character's picker. Click on *Create Shelf* to create a new shelf. Optionally, enter a name for the new shelf.
 
-The new shelf will be created and populated with the *Hide and Seek* button, the *Refresh Shelf* button and the *Left Right* button (see [here](https://robertom89.github.io/HideAndSeek_Docs/#tool-icons)).
+The new shelf will be created and populated with the *Shelf Picker* button, the *Refresh Shelf* button and the *Left Right* button (see [here](https://robertom89.github.io/ShelfPicker_Docs/#tool-icons)).
 
 ### Add Shelf Separator
 
@@ -107,7 +107,7 @@ If too many icons are on the shelf, some of them will be hidden. Click on *Two R
 
 ### Select Mode: Picker / Visibility Toggler
 
-**Hide and Seek** tool can work in two modes.
+**Shelf Picker** tool can work in two modes.
 
 - **Picker**  mode:  the icons added to the shelf will work as selection buttons;
 - **Visibility Toggler** mode: the icons added to the shelf will toggle the visibility of the meshes/faces associated to the button.
@@ -116,14 +116,16 @@ If too many icons are on the shelf, some of them will be hidden. Click on *Two R
 
 This command tries to select all the rig controls. Successful behavior highly depends on the  naming conventions of the rig. Select three controls and run the command.
 
-The command tries to extract from the selected controls names the common suffix or prefix. Therefore, it is suggested to select three controls which have very different names, such as head, hand and foot. Selecting three controls of the same body part may lead to an unaccurate result. For example:
+The command tries to extract the common suffix or prefix from the selected controls names. Therefore, it is suggested to select three controls which have very different names, such as head, hand and foot. Selecting three controls of the same body part may lead to an unaccurate result. For example:
 
 - from *"head_JohnDoe_CTRL"*, *"hand_JohnDoe_CTRL"*, *"foot_JohnDoe_CTRL"* the script would extract "_JohnDoe_CTRL" and would find all the objects in the scene which ends with such a tag, which are hopefully all the desired ones;
 - from *"fk1_arm_JohnDoe_CTRL"*, *"fk2_arm_JohnDoe_CTRL"*, *"fk3_arm_JohnDoe_CTRL"* the script would extract *"_arm_JohnDoe_CTRL"* and would find all the objects in the scene which ends with such a tag, which are most probably just a small subset.
 
 ### Add Preselection Button
 
-If more rigs in the scene share the same control names, you will have to select a random control of the rig you need before executing any shelf button so that the tool can detect its namespace and then select the corresponding selection set. Rather then selecting a random control from the viewport you can create a preselection button for each rig.
+If more rigs in the scene share the same control names, you can use the same picker button for all of them. You just need to select first a random control of the rig you want to work with before running any shelf button so that the tool can detect its namespace.
+
+Alternatively, you can create a Preselection Button for each rig. Center thye face or the whole character in the persp camera and click on this button. A screenshot will be taken and a button will appear on the shelf. Clicking on this button will preselect the character so that clicking on a picker button will use their namespace.
 
 ### Left and Right Controls Tags
 
