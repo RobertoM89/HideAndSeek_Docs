@@ -52,12 +52,11 @@ Then, type the left and right tag in the corresponding fields in the UI.
 Choose the icon set and click on the icon that best matches your selection.
 A new picker-icon will appear on the shelf.
 You can customize any new icon with an optional label or a background color through the corresponding buttons at the bottom of the UI.
-If you prefer, you can take a screenshot rather than use one of the icons.
-Tick *ScreenCap*, center your subject in the persp camera and click on the camera button.
+If you prefer, you can take a screenshot rather than use one of the icons: tick *ScreenCap*, center your subject in the persp camera and click on the camera button.
 Tick *ShowNurbs* if you want to keep the visibility of the controls in the screenshot.
 
 Now, left-click the picker icon on the shelf to select the left control of your character.
-Right-click it to select the right one. Middle_click it to select both.
+Right-click it to select the right one. Middle-click it to select both.
 If you'd rather think in terms of screen left and screen right, click on the Left-Right icon (see [here](https://robertom89.github.io/ShelfPicker_Docs/#tool-icons)) to toggle side mode.
 Hold Shift while clicking the picker icon to add the control to the current selection.
 Hold Control to remove it.
@@ -79,7 +78,7 @@ Remember to run *Refresh Shelf* button (see [here](https://robertom89.github.io/
 
 ## Tool Icons
 
-The first time you add a picker icon to the active shelf or whenever you create a new shelf through the *Create Shelf* button, these four icons will appear on the shelf.
+The first time you add a picker icon to the active shelf or whenever you create a new shelf through the *Create Picker Shelf* button, these four icons will appear on the shelf.
 
 ##### Shelf Picker button
 
@@ -110,9 +109,9 @@ Click on this icon whenever you start a new session of Maya. This is needed to r
   </div>
 </div>
 
-If the first of these two icons is visible (the other one will be hidden), "left selection" and "right selection" will consider the left and right sides of the *screen*.
+If the first of these two icons is visible (the other one will be hidden), "left selection" and "right selection" will refer to the left and right sides of the *screen*.
 
-If the second of these two icons is visible (the other one will be hidden), "left selection" and "right selection" will consider the left and right side of the *character*.
+If the second of these two icons is visible (the other one will be hidden), "left selection" and "right selection" will refer to the left and right side of the *character*.
 
 Clicking on any of the two will toggle the selection mode and the icon.
 
@@ -120,15 +119,19 @@ Clicking on any of the two will toggle the selection mode and the icon.
 
 ## Command List
 
-### Create a New Shelf
+### Create Picker Shelf
 
-Even if the picker buttons can be added to any shelf, it is adviced to create a specific shelf for your character's picker. Click on *Create Shelf* to create a new shelf. Optionally, enter a name for the new shelf.
+Even if the picker buttons can be added to any shelf, it is adviced to create a specific shelf for your character's picker. Click on *Create Picker Shelf* to create a new shelf. Optionally, enter a name for the new shelf.
 
 The new shelf will be created and populated with the *Shelf Picker* button, the *Refresh Shelf* button and the *Left Right* button (see [here](https://robertom89.github.io/ShelfPicker_Docs/#tool-icons)).
 
+### Open Shelf Editor
+
+Open Maya Shelf Editor to rearrange icons and separators on the shelf. You can also reach it through *Windows -> Settings/Preferences -> Shelf Editor.*
+
 ### Add Shelf Separator
 
-Add a shelf separator to the current shelf. To move the shelf separator along the shelf, go to *Windows -> Settings/Preferences -> Shelf Editor.*
+Add a shelf separator to the current shelf. 
 
 ### One/Two Rows Shelf Layout
 
@@ -143,7 +146,7 @@ If too many icons are on the shelf, some of them will be hidden. Click on *Two R
 
 ### Select All Controls
 
-This command tries to select all the rig controls. Successful behavior highly depends on the  naming conventions of the rig. Select three controls and run the command.
+This command tries to select all the controls of a rig. Successful behavior highly depends on the  naming conventions of the rig. Select three controls and run the command.
 
 The command tries to extract the common suffix or prefix from the selected controls names. Therefore, it is suggested to select three controls which have very different names, such as head, hand and foot. Selecting three controls of the same body part may lead to an unaccurate result. For example:
 
@@ -154,7 +157,7 @@ The command tries to extract the common suffix or prefix from the selected contr
 
 If more rigs in the scene share the same control names, you can use the same picker button for all of them. You just need to select first a random control of the rig you want to work with before running any shelf button so that the tool can detect its namespace.
 
-Alternatively, you can create a Preselection Button for each rig. Center thye face or the whole character in the persp camera and click on this button. A screenshot will be taken and a button will appear on the shelf. Clicking on this button will preselect the character so that clicking on a picker button will use their namespace.
+Alternatively, you can create a Preselection Button for each rig. Center the face or the whole character in the persp camera and click on *Add Preselection Button*. A screenshot will be taken and a button will appear on the shelf. Clicking on this button will preselect the character so that clicking on a picker button will use the correct namespace.
 
 ### Left and Right Controls Tags
 
@@ -203,7 +206,7 @@ Enter here a label for the shelf button before clicking on the icon buttons when
 
 ### Add Background Color
 
-Select an optional background color for the shelf button. Tick the checkbox before clicking on the icon buttons when creating the shelf button.
+Tick the checkbox and select a background color for the shelf button before clicking on the icon buttons when creating the shelf button. This is optional.
 
 <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: none;   width: 50px;   height: 50px;   position: fixed;   bottom: 20px;   right: 30px;   z-index: 99;   font-size: 18px;   display: inline-flex;   flex-direction: column;   justify-content: center;   align-items: center;   border: none;   outline: none;   background-color: #2D7180;   color: white;   cursor: pointer;   padding: 15px;   border-radius: 100%;">Top </button>
 
