@@ -4,15 +4,13 @@ Shelf Picker - A Maya tool for animators
 ---
 
 **Version 1.0 Beta**
-**October 2023**
+**November 2023**
 
 **Tested on Maya: 2023**
 
 **Shelf Picker** is a Maya tool for 3D animators developed by *[Roberto Menicatti](https://linktr.ee/robertomenicatti)*, which allows you to easily build a shelf-based picker for any rig you want.
 
 Give a look at the video or read the guide below if you want to see its functionalities.
-
-{% include youtube.html id="qKnVufSUqgc" %}
 
 ---
 
@@ -62,7 +60,8 @@ Hold Shift while clicking the picker icon to add the control to the current sele
 Hold Control to remove it.
 
 If more rigs share the same naming convention, you can use the same picker button for all of them.
-Just select first a random control of the rig you want to work with.
+Just select first a random control of the rig you want to work with and let the shelf buttons detect its namespace 
+automatically to apply the selection to the character you're currently animating.
 Alternatively, you can create a Preselection Button for the rig. Center your subject in the persp camera and click on *Add Preselection Button*.
 
 If you want to select all the controls of your rig, select three random controls and run *Select All Controls*.
@@ -70,7 +69,7 @@ If you want to select all the controls of your rig, select three random controls
 You can also use the tool to toggle visibility of objects of faces in the scene.
 Switch to *Visibility Toggler* mode, make a selection and click any icon button to add a visibility toggler button to the shelf.
 
-To arrange the shelf layout, you can add separators, display the icons over two rows or open the Shelf Editor throught the buttons at the top of the UI.
+To arrange the shelf layout, you can add separators, display the icons over two rows or open the Shelf Editor through the buttons at the top of the UI.
 
 Remember to run *Refresh Shelf* button (see [here](https://robertom89.github.io/ShelfPicker_Docs/#tool-icons)) at every new session of Maya to rebuild the hotkeys for the shelf-picker.
 
