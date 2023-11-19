@@ -12,6 +12,8 @@ Shelf Picker - A Maya tool for animators
 
 Give a look at the video or read the guide below if you want to see its functionalities.
 
+{% include youtube.html id="gRToEOVu8sc" %}
+
 ---
 
 - [Download and Install](https://robertom89.github.io/ShelfPicker_Docs/#download-and-install)
